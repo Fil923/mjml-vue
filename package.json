@@ -19,12 +19,14 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "mjml": "^4.18.0",
     "vue": "^3.5.25"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "^0.0.5",
     "@tsconfig/node24": "^24.0.3",
     "@types/jsdom": "^27.0.0",
+    "@types/mjml": "^4.7.4",
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.2",
     "@vitest/eslint-plugin": "^1.5.0",
