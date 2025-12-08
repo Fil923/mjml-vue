@@ -1,4 +1,6 @@
 <template>
-  <main>Mjml Vue Component Example</main>
+  <main>
+    <Mjml> Test </Mjml>
+  </main>
 </template>
 <script lang="ts" src="./app.ts"></script>
