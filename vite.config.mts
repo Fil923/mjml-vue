@@ -3,7 +3,6 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import { resolve } from 'node:path'
 
-import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -12,8 +11,9 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: resolve(__dirname, 'dist'),
   },
-  plugins: [vue(), tsconfigPaths(), vueDevTools()],
+  plugins: [vue(), vueDevTools()],
   resolve: {
+	tsconfigPaths: true,
     extensions: ['.js', '.ts', '.vue', '.json'],
     alias: {
       '@': resolve(__dirname, 'src'),
