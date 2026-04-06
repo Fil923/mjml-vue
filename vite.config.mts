@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
 import { resolve } from 'node:path'
+
+import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 
 // https://vite.dev/config/
