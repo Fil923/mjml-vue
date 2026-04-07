@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<Mjml> Test </Mjml>
+		<p>MJML Vue Email Builder</p>
 	</main>
 </template>
 <script lang="ts" src="./app.ts"></script>
